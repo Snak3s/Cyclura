@@ -42,7 +42,7 @@
 			echo "<a href=\"/upload.php\">上传</a> /\n";
 		}
 	?>
-	<a href="http://talk.snakes.moe">Talk</a>
+	<a href="http://talk.snakes.moe">Talk & To do list</a>
 	/ 由 <a href="http://github.com/Snak3s/Cyclura">Cyclura</a> 强力驱动
 	</p>
 	<p>
