@@ -1,0 +1,247 @@
+@media screen and (min-width:1024px)
+{
+	.page
+	{
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width:1023px)
+{
+	.page
+	{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, 方正黑体_GBK, "Microsoft YaHei", sans-serif;
+}
+img
+{
+	max-width: 100%;
+}
+a
+{
+	text-decoration: none;
+	color: #0077FF;
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+a:focus
+{
+	outline: none;
+	-moz-outline: none;
+}
+a:hover
+{
+	color: #0044FF;
+}
+hr
+{
+	color: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+}
+table
+{
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+pre
+{
+	color: #FFFFFF;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	background-color: #333333;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+code
+{
+	font-family: Consolas;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	color: #FFFFFF;
+	background-color: #333333;
+	border-radius: 0.2em;
+}
+blockquote
+{
+	height: auto;
+	width: auto;
+	margin: 0px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+blockquote::before
+{
+	content: "“";
+	height: 0em;
+	width: 0em;
+	font-size: 3em;
+	color: #AAAAAA;
+	float: left;
+	transform: translate(-0.5em,-0.5em);
+}
+blockquote::after
+{
+	content: "”";
+	font-size: 3em;
+	color: #AAAAAA;
+	float: right;
+	height: 0em;
+	transform: translate(0.5em,-1.5em);
+}
+.editor
+{
+
+	height: auto;
+	width: 100%;
+	font-size: 1em;
+	float: left;
+}
+.title
+{
+	height: auto;
+	width: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 2em;
+	font-weight: bold;
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	color: #0044DD;
+}
+.title:hover
+{
+	color: #000088;
+}
+.content
+{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+.content-min
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.article
+{
+	font-size: 1.3em;
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	font-weight: bold;
+}
+.time
+{
+	font-size: 1em;
+	color: #AAAAAA;
+}
+.text
+{
+	font-size: 1.1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.text a
+{
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+.comment
+{
+	font-size: 1em;
+	margin: 0px;
+}
+.comment a
+{
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+.foot
+{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+.with-border
+{	
+	cursor: pointer;
+	border: 1px solid #0077FF;
+	color: #0077FF;
+}
+.button
+{
+	border-radius: 0.2em;
+	font-size: 1em;
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	margin: 0.2em;
+	padding: 0.2em;
+	float: left;
+	background-color: #FFFFFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, 方正黑体_GBK, "Microsoft YaHei", sans-serif;
+}
+.with-border:hover
+{
+	background-color: #0077FF;
+	color: #FFFFFF;
+}
+.input
+{
+	color: #000000;
+	width: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 0.2em;
+	font-family: Consolas, HanSans-L;
+	margin: 0.2em;
+	padding: 0.2em;
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	background-color: #FFFFFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, 方正黑体_GBK, "Microsoft YaHei", sans-serif;
+}
+.input:focus
+{
+	border-color: #0077FF;
+}
+.input-min
+{
+	word-wrap: break-word;
+	resize: none;
+	min-height: 5em;
+}
+.input-min:focus
+{
+	outline: none;
+}
+.clear
+{
+	clear: both;
+}
